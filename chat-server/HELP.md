@@ -9,9 +9,9 @@ The following was discovered as part of building this project:
 For further reference, please consider the following sections:
 
 * [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.7/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.7/gradle-plugin/packaging-oci-image.html)
-* [Spring Web](https://docs.spring.io/spring-boot/3.5.7/reference/web/servlet.html)
+* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/4.0.0/gradle-plugin)
+* [Create an OCI image](https://docs.spring.io/spring-boot/4.0.0/gradle-plugin/packaging-oci-image.html)
+* [Spring Web](https://docs.spring.io/spring-boot/4.0.0/reference/web/servlet.html)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
