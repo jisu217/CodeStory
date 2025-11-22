@@ -10,12 +10,12 @@
 ```
 emotional-ai-chatbot-backend/
 └── emotional/
-    ├── controller/   
-    │   └── ChatController.java                   # 요청 수신 → 서비스 호출
-    ├── service/           
-    │   └── AIChatService.java                    # FastAPI AI 서버와 통신
-    ├── domain/         
-    │   └── ChatRequest.java                      # 클라이언트 요청 DTO
+    ├── controller/                               # API 요청 처리 (채팅 입력 수신)
+    │   └── ChatController.java                   └── # 요청 수신 → 서비스 호출
+    ├── service/                                  # 비즈니스 로직 (AI 서버 호출/데이터 가공)
+    │   └── AIChatService.java                    └── # FastAPI AI 서버와 통신
+    ├── domain/                                   # DTO, 응답/요청 모델
+    │   └── ChatRequest.java                      └── # 클라이언트 요청 DTO
     └── EmotionalAiChatbotBackendApplication.java # Spring Boot 메인
 └── resources/
             ├── application.properties            # 환경 설정 (AI 서버)
