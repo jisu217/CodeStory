@@ -4,18 +4,18 @@
 
 ```
 1. 웹서버 - react
-- emotional-ai-chatbot-frontend
+   emotional-ai-chatbot-frontend
 
 ```
 
 ```
 2. 웹이랑 통신할 REST API 제작 - spring boot
-> emotional-ai-chatbot-backend
+   emotional-ai-chatbot-backend
 
 ```
 
 ```
 3. AI 서버랑 통신할 REST API 제작 - FastAPI
-> emotional-ai-chatbot-ai-server
+   emotional-ai-chatbot-ai-server
 
 ```
