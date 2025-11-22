@@ -34,7 +34,23 @@ emotional-ai-chatbot-backend/
    emotional-ai-chatbot-backend
 ```
 
+프로젝트 구조
+```
+```
+
+서버 실행
+```
+```
+
 ```
 3. AI 서버랑 통신할 REST API 제작 - FastAPI
    emotional-ai-chatbot-ai-server
+```
+
+프로젝트 구조
+```
+```
+
+서버 실행
+```
 ```
