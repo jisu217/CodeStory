@@ -7,6 +7,19 @@
    emotional-ai-chatbot-frontend
 
 ```
+emotional-ai-chatbot-backend/
+└── emotional/
+    ├── controller/   
+    │   └── ChatController.java                   # 요청 수신 → 서비스 호출
+    ├── service/           
+    │   └── AIChatService.java                    # FastAPI AI 서버와 통신
+    ├── domain/         
+    │   └── ChatRequest.java                      # 클라이언트 요청 DTO
+    └── EmotionalAiChatbotBackendApplication.java # Spring Boot 메인
+└── resources/
+            ├── application.properties            # 환경 설정 (AI 서버)
+            └── static/  
+```
 
 ```
 2. 웹이랑 통신할 REST API 제작 - spring boot
