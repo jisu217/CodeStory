@@ -7,6 +7,7 @@
    emotional-ai-chatbot-frontend
 
 ```
+프로젝트 구조
 ```
 emotional-ai-chatbot-backend/
 └── emotional/
