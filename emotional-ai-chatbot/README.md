@@ -4,12 +4,18 @@
 
 ```
 1. 웹서버 - react
+motional-ai-chatbot-front
+
 ```
 
 ```
 2. 웹이랑 통신할 REST API 제작 - spring boot
+motional-ai-chatbot
+
 ```
 
 ```
 3. AI 서버랑 통신할 REST API 제작 - FastAPI
+motional-ai-chatbot
+
 ```
