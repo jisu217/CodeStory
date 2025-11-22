@@ -17,6 +17,7 @@ emotional-ai-chatbot-backend/
     │   └── AIChatService.java                    └── # FastAPI AI 서버와 통신
     ├── domain/                                   # DTO, 응답/요청 모델
     │   └── ChatRequest.java                      └── # 클라이언트 요청 DTO
+    │   └── ChatResponse.java                     └── # 클라이언트 응답 DTO
     └── EmotionalAiChatbotBackendApplication.java # Spring Boot 메인
 └── resources/
             ├── application.properties            # 환경 설정 (AI 서버)
