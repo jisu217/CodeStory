@@ -4,7 +4,7 @@
 
 ```
 1. 웹서버 - react
-> emotional-ai-chatbot-frontend
+- emotional-ai-chatbot-frontend
 
 ```
 
