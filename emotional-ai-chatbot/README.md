@@ -12,6 +12,7 @@
 
 - 서버 실행
 ```
+npm start
 ```  
   
 ## 2. 웹이랑 통신할 REST API 제작 - spring boot
