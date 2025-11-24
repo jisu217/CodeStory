@@ -1,0 +1,20 @@
+/* 챗봇 페이지 전체 레이아웃 스타일 */
+
+/* 전체 챗봇 컨테이너 */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;  
+    height: 100vh;           /* 화면 전체 높이 */
+    max-width: 450px;        /* 챗봇 창 최대 너비 */
+    margin: 0 auto;          /* 화면 중앙 정렬 */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 메시지 창 영역 (ChatWindow) */
+.chat-main {
+    flex-grow: 1;            /* 남은 공간 모두 차지 */
+    overflow-y: auto;        /* 스크롤 허용 */
+    padding: 10px;
+    background-color: #f9f9f9;
+}
