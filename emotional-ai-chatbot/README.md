@@ -12,7 +12,6 @@
 
 - 서버 실행
 ```
-./gradlew bootRun
 ```  
   
 ## 2. 웹이랑 통신할 REST API 제작 - spring boot
@@ -37,6 +36,7 @@ emotional-ai-chatbot-backend/
 
 - 서버 실행
 ```
+./gradlew bootRun
 ```  
   
 ## 3. AI 서버랑 통신할 REST API 제작 - FastAPI 
