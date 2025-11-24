@@ -8,6 +8,18 @@
 
 - 프로젝트 구조
 ```
+```
+
+- 서버 실행
+```
+./gradlew bootRun
+```  
+  
+## 2. 웹이랑 통신할 REST API 제작 - spring boot
+###   emotional-ai-chatbot-backend   
+
+- 프로젝트 구조
+```
 emotional-ai-chatbot-backend/
 └── emotional/
     ├── controller/                               # API 요청 처리 (채팅 입력 수신)
@@ -21,18 +33,6 @@ emotional-ai-chatbot-backend/
 └── resources/
             ├── application.properties            # 환경 설정 (AI 서버)
             └── static/  
-```
-
-- 서버 실행
-```
-./gradlew bootRun
-```  
-  
-## 2. 웹이랑 통신할 REST API 제작 - spring boot
-###   emotional-ai-chatbot-backend   
-
-- 프로젝트 구조
-```
 ```
 
 - 서버 실행
