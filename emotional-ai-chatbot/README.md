@@ -9,14 +9,14 @@
 - 프로젝트 구조
 ```
 emotional-ai-chatbot-frontend/
-├── public/                # 정적 파일
+├── public/                    # 정적 파일
 ├── src/
-│   ├── assets/            # 이미지, 아이콘 등 리소스
-│   ├── components/        # UI 컴포넌트 모음
-│   │   ├── ChatInput.js   # 입력창 컴포넌트
-│   │   ├── ChatWindow.js  # 전체 채팅 영역
-│   │   ├── Header.js      # 상단 헤더
-│   │   ├── Message.js     # 메시지 버블 렌더링
+│   ├── assets/                # 이미지, 아이콘 등 리소스
+│   ├── components/            # UI 컴포넌트 모음
+│   │   ├── ChatInput.js       # 입력창 컴포넌트
+│   │   ├── ChatWindow.js      # 전체 채팅 영역
+│   │   ├── Header.js          # 상단 헤더
+│   │   ├── Message.js         # 메시지 버블 렌더링
 │   │   └── ...
 │   ├── context/
 │   │   ├── ChatContext.js     # Context 생성
