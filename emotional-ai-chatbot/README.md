@@ -78,14 +78,14 @@ app/                          # 애플리케이션 핵심 로직
 │   └── chat_service.py       # AI 처리 로직 구현
 │
 ├── models/                   # 데이터 모델
-│   └── schemas.py            # ChatRequest, ChatResponse 등 스키마 정의
+│   └── schemas.py            # 스키마 정의 (ChatRequest, ChatResponse 등)
 │
 ├── core/                     # 설정 및 공통 유틸리티
 │   └── config.py             # 환경 변수 및 설정 관리
 │
-tests/                        # 테스트 코드 
-requirements.txt              # 프로젝트 의존성 목록
-README.md                     # 프로젝트 설명 및 실행 방법
+tests/                      
+requirements.txt              # 프로젝트 의존성
+README.md                  
 ```
 
 - 서버 실행
