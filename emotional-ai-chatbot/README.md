@@ -66,6 +66,22 @@ emotional-ai-chatbot-backend/
 
 - 프로젝트 구조
 ```
+파일/폴더,설명,주요 역할
+app/,핵심 애플리케이션 로직을 담는 폴더 (추천),애플리케이션의 모듈화
+├── main.py,FastAPI 애플리케이션의 엔트리 포인트,앱 인스턴스 생성 및 라우터 포함
+├── api/,API 엔드포인트 (라우터) 정의,HTTP 요청 처리 (Controller 역할)
+│   ├── v1/,"API 버전 관리 (e.g., v1)",버전별 라우트 분리
+│   │   ├── __init__.py,,모듈 패키지화
+│   │   └── endpoints.py,채팅 관련 API 엔드포인트 정의,"/chat 라우트, 요청 처리"
+├── services/,"핵심 비즈니스 로직 (감정 분석, 응답 생성 등)",AI 모델 호출 및 데이터 처리
+│   └── chat_service.py,"AI 처리 로직 (감정 분석, 응답 생성) 구현",비즈니스 로직 담당 (backend의 AI챗 서비스 역할)
+├── models/,데이터 모델/스키마 정의 (Pydantic 모델),요청/응답 데이터 유효성 검사 및 구조 정의
+│   └── schemas.py,"ChatRequest, ChatResponse 등의 Pydantic 모델 정의",데이터 DTO 역할
+├── core/,"설정, 유틸리티, AI 모델 로딩 등 핵심 요소",환경 설정 및 공통 함수 관리
+│   └── config.py,환경 변수 및 기타 설정 정의,설정값 관리
+tests/,테스트 코드,엔드포인트 및 서비스 로직 테스트
+requirements.txt,"프로젝트 의존성 (FastAPI, uvicorn, torch/tensorflow 등)",필요한 라이브러리 명시
+README.md,프로젝트 설명 및 실행 방법,
 ```
 
 - 서버 실행
