@@ -90,4 +90,5 @@ README.md
 
 - 서버 실행
 ```
+uvicorn app.main:app --reload
 ```
