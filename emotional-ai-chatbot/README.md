@@ -66,24 +66,24 @@ emotional-ai-chatbot-backend/
 
 - 프로젝트 구조
 ```
-app/                          # 애플리케이션 핵심 로직을 담는 폴더
-├── main.py                   # FastAPI 앱 엔트리 포인트 (앱 생성, 라우터 등록)
+app/                          # 애플리케이션 핵심 로직
+├── main.py                   # FastAPI 앱 엔트리 포인트
 │
-├── api/                      # API 엔드포인트(라우터) 정의
-│   └── v1/                   # API 버전 관리 (예: v1)
+├── api/                      # API 엔드포인트 정의
+│   └── v1/                   # API 버전 관리
 │       ├── __init__.py       # 패키지 초기화
-│       └── endpoints.py      # 채팅 관련 API (예: /chat) 요청 처리
+│       └── endpoints.py      # 채팅 관련 API 요청 처리
 │
-├── services/                 # 핵심 비즈니스 로직 (AI 분석, 응답 생성 등)
-│   └── chat_service.py       # AI 처리 로직 구현 (감정 분석, 응답 생성)
+├── services/                 # 핵심 비즈니스 로직 
+│   └── chat_service.py       # AI 처리 로직 구현
 │
-├── models/                   # 데이터 모델(Pydantic)
+├── models/                   # 데이터 모델
 │   └── schemas.py            # ChatRequest, ChatResponse 등 스키마 정의
 │
 ├── core/                     # 설정 및 공통 유틸리티
 │   └── config.py             # 환경 변수 및 설정 관리
 │
-tests/                        # 테스트 코드 (엔드포인트/서비스 테스트)
+tests/                        # 테스트 코드 
 requirements.txt              # 프로젝트 의존성 목록
 README.md                     # 프로젝트 설명 및 실행 방법
 ```
