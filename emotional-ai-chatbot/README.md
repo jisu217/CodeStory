@@ -78,7 +78,7 @@ app/                          # 애플리케이션 핵심 로직
 │   └── chat_service.py       # AI 처리 로직 구현
 │
 ├── models/                   # 데이터 모델
-│   └── schemas.py            # 스키마 정의 (ChatRequest, ChatResponse 등)
+│   └── schemas.py            # 스키마 정의
 │
 ├── core/                     # 설정 및 공통 유틸리티
 │   └── config.py             # 환경 변수 및 설정 관리
