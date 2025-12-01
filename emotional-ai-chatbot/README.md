@@ -55,7 +55,7 @@ emotional-ai-chatbot-backend/
             ├── application.properties            # 환경 설정 (AI 서버)
             └── static/  
 ```
-
+ 
 - 서버 실행
 ```
 ./gradlew bootRun
