@@ -26,7 +26,7 @@ emotional-ai-chatbot-frontend/
 │   ├── pages/
 │   │   └── ChatbotPage.js     # 챗봇 메인 페이지
 │   ├── App.js                 # 루트 컴포넌트
-│   └── index.js               # 앱 진입파일 (React DOM 렌더링)
+│   └── index.js               # 앱 진입파일
 ├── package.json
 └── README.md
 ```
